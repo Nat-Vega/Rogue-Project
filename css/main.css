@@ -14,11 +14,6 @@ body {
   width: 600px;
   float: left;
 }
-
-#third-width {
-  width: 400px;
-  float: left;
-}
 .third-width {
   width: 400px;
   float: left;
@@ -46,17 +41,22 @@ h2 {
 }
 #content {
   border-top: 1px solid #000000;
+  width: 1200px;
 }
 #content h3 {
   font-size: 12px;
   text-transform: uppercase;
   line-height: 25px;
+
 }
-#content .third-width p {
+#content p {
   font-size: 16px;
   color: #000000;
   line-height: 25px;
 
+}
+#content p span {
+  color: #77a466;
 }
 footer {
   border-top: 1px solid #000000;
@@ -65,20 +65,33 @@ footer {
   text-align: center;
   font-weight: bold;
 }
+#reviews {
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  text-align: center;
+  width: 398px;
+
+}
+#contact {
+  text-align: center;
+
+}
 footer span {
   font-family: 'Galada', cursive;
   color: #77a466;
   text-transform: lowercase;
 }
+nav {
+  float: right;
+}
 nav ul li {
   display: inline-block;
+}
+nav ul li a {
   text-transform: uppercase;
   color: #77a466;
   padding-left: 15px;
   font-weight: bold;
-  float: right;
-}
-#third-width p {
-  color: #77a466;
-  line-height: 36px;
+  float: left;
+  text-decoration: none;
 }
